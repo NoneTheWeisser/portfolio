@@ -1,4 +1,4 @@
-/* ---------------- Header & Avatar ---------------- */
+/* adding important to override main styles. */
 #header .image.avatar {
   width: 160px !important;   
 }
@@ -15,12 +15,14 @@
   list-style: none;
   padding: 0;
   margin: 0.5em 0;
+  text-align: right;
 }
 
 .contact-info li {
-  margin: 0.25em 0;
-  display: flex;
-  align-items: center;
+  margin: 0.25em 0;      
+  display: flex;         
+  justify-content: flex-end; /* right align icon + text */
+  align-items: center;       /* vertical align icon and text */
 }
 
 .contact-info li .icon {
