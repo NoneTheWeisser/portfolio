@@ -1,4 +1,4 @@
-/* adding important to override main styles. */
+/* ---------------- Header & Avatar ---------------- */
 #header .image.avatar {
   width: 160px !important;   
 }
@@ -15,14 +15,14 @@
   list-style: none;
   padding: 0;
   margin: 0.5em 0;
-  text-align: right;
+  text-align: right; /* default for desktop */
 }
 
 .contact-info li {
   margin: 0.25em 0;      
   display: flex;         
-  justify-content: flex-end; /* right align icon + text */
-  align-items: center;       /* vertical align icon and text */
+  justify-content: flex-end; /* desktop: right align */
+  align-items: center;       /* vertical align icon + text */
 }
 
 .contact-info li .icon {
@@ -85,11 +85,26 @@
   font-size: 3rem;
 }
 
+/* ---------------- Mobile Styles ---------------- */
 @media (max-width: 600px) {
+  /* Tech logos smaller */
   .tech-item img,
   .tech-item i {
     width: 50px;
     height: 50px;
     font-size: 2.5rem;
+  }
+
+  /* Header & contact info centered */
+  #header .inner {
+    text-align: center;
+  }
+
+  .contact-info {
+    text-align: center;
+  }
+
+  .contact-info li {
+    justify-content: center;
   }
 }
