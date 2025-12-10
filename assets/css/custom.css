@@ -30,6 +30,11 @@
   color: #fff; 
 }
 
+#one p {
+  line-height: 1.65;
+  margin-bottom: 1.5rem; 
+}
+
 /* Graphic Section Overflow */
 #graphic {
   overflow: visible;
