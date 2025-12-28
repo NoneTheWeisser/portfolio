@@ -1,6 +1,6 @@
 /* ---------------- Header & Avatar ---------------- */
 #header .image.avatar {
-  width: 160px !important;   
+  width: 160px !important;
 }
 
 #header .image.avatar img {
@@ -19,20 +19,20 @@
 }
 
 .contact-info li {
-  margin: 0.25em 0;      
-  display: flex;         
+  margin: 0.25em 0;
+  display: flex;
   justify-content: flex-end; /* desktop: right align */
-  align-items: center;       /* vertical align icon + text */
+  align-items: center; /* vertical align icon + text */
 }
 
 .contact-info li .icon {
   margin-right: 0.5em;
-  color: #fff; 
+  color: #fff;
 }
 
 #one p {
   line-height: 1.65;
-  margin-bottom: 1.5rem; 
+  margin-bottom: 1.5rem;
 }
 
 /* Graphic Section Overflow */
@@ -53,6 +53,14 @@
   display: flex;
   justify-content: center; /* ensures buttons align horizontally */
   gap: 0.5rem; /* space between buttons */
+}
+
+/* ---------------- Section Subtitles ---------------- */
+.section-subtitle {
+  margin: -1rem 0 1.5rem;
+  font-size: 0.95rem;
+  opacity: 0.8;
+  max-width: 700px;
 }
 
 /* ---------------- Technologies Section ---------------- */
@@ -88,6 +96,20 @@
   height: 60px;
   margin-bottom: 0.5rem;
   font-size: 3rem;
+}
+
+
+/* ---------------- Design Tools Styling ---------------- */
+#design-tools .tech-item img {
+  filter: grayscale(100%);
+  opacity: 0.85;
+  transition: filter 0.2s ease, opacity 0.2s ease, transform 0.2s ease;
+}
+
+#design-tools .tech-item:hover img {
+  filter: none;
+  opacity: 1;
+  transform: translateY(-3px);
 }
 
 /* ---------------- Mobile Styles ---------------- */
