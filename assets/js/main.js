@@ -89,7 +89,7 @@
   // Main Sections: Two.
   $window.on("load", function () {
     // Section 2: Featured Projects
-    $("#two").poptrox({
+    $("#projects").poptrox({
       caption: function ($a) {
         return $a.next("h3").text();
       },
@@ -106,7 +106,7 @@
     });
 
     // Section 3: Graphic Design Examples
-    $("#three").poptrox({
+    $("#design-portfolio").poptrox({
       caption: function ($a) {
         return $a.next("h3").text();
       },
