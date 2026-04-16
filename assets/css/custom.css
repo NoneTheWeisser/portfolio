@@ -98,6 +98,37 @@
   font-size: 3rem;
 }
 
+/* ---------------- Project Coordination Tools ---------------- */
+.project-tool-icon {
+  transition: transform 0.2s ease, opacity 0.2s ease;
+}
+
+.project-tool-logo {
+  object-fit: contain;
+  transition: transform 0.2s ease, opacity 0.2s ease;
+}
+
+.trello-icon {
+  color: #0079bf;
+}
+
+.google-icon {
+  color: #4285f4;
+}
+
+.microsoft-icon {
+  color: #00a4ef;
+}
+
+.slack-icon {
+  color: #4a154b;
+}
+
+.tech-item:hover .project-tool-icon,
+.tech-item:hover .project-tool-logo {
+  transform: translateY(-3px);
+}
+
 
 /* ---------------- Design Tools Styling ---------------- */
 #design-tools .tech-item img {
