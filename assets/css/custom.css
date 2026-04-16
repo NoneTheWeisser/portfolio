@@ -111,17 +111,29 @@
 .trello-icon {
   color: #0079bf;
 }
+.trello-icon:before {
+  color: #0079bf !important;
+}
 
 .google-icon {
   color: #4285f4;
+}
+.google-icon:before {
+  color: #4285f4 !important;
 }
 
 .microsoft-icon {
   color: #00a4ef;
 }
+.microsoft-icon:before {
+  color: #00a4ef !important;
+}
 
 .slack-icon {
   color: #4a154b;
+}
+.slack-icon:before {
+  color: #4a154b !important;
 }
 
 .tech-item:hover .project-tool-icon,
